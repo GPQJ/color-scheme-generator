@@ -1,0 +1,66 @@
+/* LAYOUT */
+html {
+	background-color: #18092C;
+}
+
+body{
+	background-color:#1F2937;
+	color: white;
+	max-width: 600px;
+	margin: 2.5rem auto;
+	font-family: sans-serif;
+}
+
+.color-picker-container {
+	display: flex;
+	justify-content: space-between;
+	padding: 2rem 1rem;
+	
+}
+.color-scheme-container {
+	display: flex;
+	justify-content: space-between;
+}
+.color-container {
+	margin:0;
+	flex: 1;
+}
+.color-swatch {
+	min-height: 45vh;
+}
+
+/* Text, fields and buttons */
+
+input {
+	min-width: 3.75rem;
+	height: 2.62rem;
+}
+input::-webkit-color-swatch-wrapper {
+	padding: 0.1rem; 
+}
+
+.select-color-harmony, .color-picker-btn {
+	border-radius: 4px;
+	color: white;
+}
+
+.select-color-harmony {
+	flex: 1;
+	margin: 0 1rem;
+	background-color: #1F293A;
+	border: 1px solid #D1D5DB;
+	padding:0.5rem;
+}
+
+.color-picker-btn  {
+	padding: 0.6rem;
+	background-color:#3D4B60;
+	border: none;	
+}
+.color-hex-code {
+	color:#D5D4D8;
+	font-size: 0.75rem;
+	text-align: center;
+	font-weight: 500;
+	padding: 0.4rem;
+}

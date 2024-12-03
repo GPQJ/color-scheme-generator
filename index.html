@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+    <head>
+		<meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="GPQJ"/>
+        <meta name="description" content="CSG is a simple palette generator powered by The Color API">
+        <meta name="theme-color" content="#DBE2F0">
+		<title>Color Scheme Generator</title>
+        <!-- FONTS -->
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <main>
+            <section class="color-picker-container">
+				<input type="color" aria-label="choose a color" id="color-picker">
+				<select name="color-harmony" aria-label="Select a color harmony" class="select-color-harmony">
+					<option value="monochrome">Monochrome</option>
+					<option value="monochrome-dark">Monochrome dark</option>
+					<option value="monochrome-light">Monochrome light</option>
+					<option value="analogic">Analogic</option>
+					<option value="complement">Complement</option>
+					<option value="analogic-complement">Analogic complement</option>
+					<option value="triad">Triad</option>
+					<option value="quad">Quad</option>
+				</select>
+				<button class="color-picker-btn" aria-label="Generate a color scheme based on the selected options.">Get color scheme</button>
+            </section>
+			<section class="color-scheme-container" aria-live="polite">
+				<!-- This is the default colorScheme. It will be replaced  each time the "Get color scheme" button is clicked -->
+				<div class="color-container">
+					<div class="color-swatch" style="background-color:#8C1636" id="#8C1636"></div>
+					<h2 class="color-hex-code"> #8C1636</h2>
+				</div>
+				<div class="color-container">
+					<div class="color-swatch" style="background-color:#F299B9" id="#F299B9"></div>
+					<h2 class="color-hex-code"> #F299B9</h2>
+				</div>
+				<div class="color-container">
+					<div class="color-swatch" style="background-color:#8C3074" id="#8C3074"></div>
+					<h2 class="color-hex-code"> #8C3074</h2>
+				</div>
+				<div class="color-container">
+					<div class="color-swatch" style="background-color:#B03BBF" id="#B03BBF"></div>
+					<h2 class="color-hex-code"> #B03BBF</h2>
+				</div>
+				<div class="color-container">
+					<div class="color-swatch" style="background-color:#F27A5E" id="#F27A5E"></div>
+					<h2 class="color-hex-code"> #F27A5E</h2>
+				</div>
+
+			</section>
+        </main>
+		<script src="index.js"type="module"></script>
+    </body>
+</html>
