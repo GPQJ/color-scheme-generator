@@ -19,4 +19,4 @@ The **Color Scheme Generator** is a simple web-based tool that allows users to g
 - **The Color API**: API that generates color schemes based on a given color and harmony.
 
 
-##### GPQJ - 2024 
+##### GPQJ ❀ 2024 
